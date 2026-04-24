@@ -32,7 +32,7 @@ It uses a machine learning model served through a FastAPI backend and a simple S
 MiniProject/
 │
 ├── main.py
-├── streamlit_app.py
+├── frontend_st.py
 ├── requirements.txt
 │
 ├── models/
@@ -61,7 +61,7 @@ http://127.0.0.1:8000/docs
 ### 2. Start Streamlit frontend
 
 ```
-streamlit run streamlit_app.py
+streamlit run frontend_st.py
 ```
 
 Open:
